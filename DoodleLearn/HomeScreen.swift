@@ -17,8 +17,12 @@ struct HomeScreen: View {
             ScrollView(.vertical) {
                 LazyVGrid(columns: columns) {
                     ForEach(filterDoodleData(searchText: searchText)) { doodle in
-                        DoodleGridItem(doodle: doodle)
-                            .padding()
+                        NavigationLink(destination: DoodleView(doodle: doodle)) {
+                            DoodleGridItem(doodle: doodle)
+                                .padding()
+                        }
+                        .navigationTitle(doodle.name)
+                        .buttonStyle(PlainButtonStyle())
                     }
                 }
             }.searchable(text: $searchText, placement: .toolbar)
