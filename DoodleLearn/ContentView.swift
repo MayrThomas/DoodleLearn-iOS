@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    enum Tab {
+        case home, profile
+    }
+    
+    @State private var selectedTab: Tab = .home
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $selectedTab) {
+            
+            NavigationView() {
+                HomeScreen()
+                    .navigationTitle("Browse")
+                    .padding(8)
+            }
+            .tabItem {
+                Label("Home", systemImage: "house")
+            }
+            .tag(Tab.home)
+            .labelStyle(.iconOnly)
+            
+            NavigationView() {
+                ProfileScreen()
+                    .navigationTitle("Profile")
+            }
+            .tabItem {
+                Label("Profile", systemImage: "person.crop.circle")
+            }
+            .tag(Tab.profile)
+            .labelStyle(.iconOnly)
         }
-        .padding()
     }
 }
 
