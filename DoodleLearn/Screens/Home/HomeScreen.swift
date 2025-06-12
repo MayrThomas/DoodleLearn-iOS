@@ -8,38 +8,34 @@
 import SwiftUI
 
 struct HomeScreen: View {
-    let columns = [GridItem(.flexible()), GridItem(.flexible())]
     
-    @State private var searchText: String = ""
+    @State var viewModel: HomeScreenViewModel
+    @State private var searchText = ""
+    
+    let columns = [GridItem(.flexible()), GridItem(.flexible())]
     
     var body: some View {
         VStack {
             ScrollView(.vertical) {
                 LazyVGrid(columns: columns) {
-                    ForEach(filterDoodleData(searchText: searchText)) { doodle in
+                    ForEach(viewModel.doodleList) { doodle in
                         NavigationLink(destination: DoodleView(doodle: doodle)) {
                             DoodleGridItem(doodle: doodle)
                                 .padding()
                         }
-                        .navigationTitle(doodle.name)
                         .buttonStyle(PlainButtonStyle())
                     }
                 }
-            }.searchable(text: $searchText, placement: .toolbar)
-        }
-    }
-    
-    private func filterDoodleData(searchText: String) -> [Doodle] {
-        if !searchText.isEmpty {
-            return Doodle.testData.filter {
-                $0.name.lowercased().contains(searchText.lowercased())
+            }
+            .searchable(text: $searchText, placement: .toolbar)
+            .onChange(of: searchText, initial: false) {
+                viewModel.searchText = searchText
+                viewModel.filterDoodleList()
             }
         }
-        
-        return Doodle.testData
     }
 }
 
 #Preview {
-    HomeScreen()
+    HomeScreen(viewModel: HomeScreenViewModel(repository: LocalDoodleRepository()))
 }

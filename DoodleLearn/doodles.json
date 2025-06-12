@@ -1,0 +1,402 @@
+[
+  {
+    "id": "f8f7e7d3-cc57-4e3a-87cf-6ec0d5045ec8",
+    "name": "Cat",
+    "difficulty": 2,
+    "thumbnail": "hare.fill",
+    "steps": [
+      {
+        "id": "ac18b3b5-530e-4a5a-89f3-b8a6bcfa0e7d",
+        "title": "Draw Head",
+        "description": "Draw a circle for the head.",
+        "image": "circle.fill"
+      },
+      {
+        "id": "7f3f5639-69f2-4bb6-a21f-79b5712b0dc5",
+        "title": "Add Ears",
+        "description": "Draw triangles for the ears.",
+        "image": "triangle.fill"
+      }
+    ]
+  },
+  {
+    "id": "d7b4dc6f-7a69-4d3a-9314-c22c5cb7aee6",
+    "name": "Dog",
+    "difficulty": 3,
+    "thumbnail": "tortoise.fill",
+    "steps": [
+      {
+        "id": "11efb659-44d3-4500-88d4-5d73b49a2a07",
+        "title": "Draw Body",
+        "description": "Draw an oval for the body.",
+        "image": "oval.fill"
+      },
+      {
+        "id": "e9005e9a-bbdf-4a42-a716-9b5e5dc2a563",
+        "title": "Add Legs",
+        "description": "Draw four legs under the body.",
+        "image": "rectangle.fill"
+      }
+    ]
+  },
+  {
+    "id": "31a93fa7-7f32-4c8c-b1f4-6e3f23c258e0",
+    "name": "House",
+    "difficulty": 1,
+    "thumbnail": "house.fill",
+    "steps": [
+      {
+        "id": "235aeb14-f36c-4b71-a3e4-324d1582bc8c",
+        "title": "Draw Walls",
+        "description": "Draw a square for the walls.",
+        "image": "square.fill"
+      },
+      {
+        "id": "9a8e85f0-773c-4d95-8e6a-778ec3445b3e",
+        "title": "Add Roof",
+        "description": "Draw a triangle for the roof.",
+        "image": "triangle.fill"
+      }
+    ]
+  },
+  {
+    "id": "69b93ad7-9151-403d-9298-7c4ea14b0e13",
+    "name": "Car",
+    "difficulty": 2,
+    "thumbnail": "car.fill",
+    "steps": [
+      {
+        "id": "4de6e00b-94c9-4626-b88b-4bdf230302d8",
+        "title": "Draw Body",
+        "description": "Draw a rectangle for the car body.",
+        "image": "rectangle.fill"
+      },
+      {
+        "id": "d29b0d32-836d-4405-bbfd-1d7c3b7d3771",
+        "title": "Add Wheels",
+        "description": "Draw two circles for the wheels.",
+        "image": "circle.fill"
+      }
+    ]
+  },
+  {
+    "id": "4c8e4d40-4ec4-41f8-8ef9-e2dc357c3a40",
+    "name": "Tree",
+    "difficulty": 1,
+    "thumbnail": "leaf.fill",
+    "steps": [
+      {
+        "id": "8b432ef2-78fc-43dc-b0b1-74b75bc5e508",
+        "title": "Draw Trunk",
+        "description": "Draw a rectangle for the trunk.",
+        "image": "rectangle.fill"
+      },
+      {
+        "id": "3e16b3c2-fd02-4966-9d17-26f94916c82d",
+        "title": "Add Leaves",
+        "description": "Draw a cloud shape for the leaves.",
+        "image": "cloud.fill"
+      }
+    ]
+  },
+  {
+    "id": "ae9bfe25-7dc2-44f3-9b79-22bbdb417997",
+    "name": "Sun",
+    "difficulty": 1,
+    "thumbnail": "sun.max.fill",
+    "steps": [
+      {
+        "id": "b55825f3-55d5-4c6c-9dfd-f1e5696821d3",
+        "title": "Draw Circle",
+        "description": "Draw a big circle for the sun.",
+        "image": "circle.fill"
+      },
+      {
+        "id": "4a7b4eb4-8fa5-4e7e-a241-7261aa95a8de",
+        "title": "Add Rays",
+        "description": "Draw lines for the sun rays.",
+        "image": "rays"
+      }
+    ]
+  },
+  {
+    "id": "f7a9f35a-bda3-4349-9018-011ad18c5c7f",
+    "name": "Rocket",
+    "difficulty": 4,
+    "thumbnail": "airplane.departure",
+    "steps": [
+      {
+        "id": "2992a93c-fddb-4d32-850c-92b5e38d5141",
+        "title": "Draw Body",
+        "description": "Draw an elongated oval.",
+        "image": "oval.fill"
+      },
+      {
+        "id": "8c3f0313-0218-4a38-b72f-ec7ed05f4a6b",
+        "title": "Add Fins",
+        "description": "Draw small triangles at the base.",
+        "image": "triangle.fill"
+      }
+    ]
+  },
+  {
+    "id": "23b4b214-3a32-4a4b-89b2-ec9b59fa34e7",
+    "name": "Plane",
+    "difficulty": 3,
+    "thumbnail": "airplane",
+    "steps": [
+      {
+        "id": "5f55bc18-d30b-4288-90cb-8e089a2a7aa4",
+        "title": "Draw Fuselage",
+        "description": "Draw a long rectangle.",
+        "image": "rectangle.fill"
+      },
+      {
+        "id": "b27bc8fc-cb90-4635-8f01-62e44b81cf45",
+        "title": "Add Wings",
+        "description": "Draw two triangles for wings.",
+        "image": "triangle.fill"
+      }
+    ]
+  },
+  {
+    "id": "64a26fbc-fd88-4f23-8017-e7f0fcaf5e2c",
+    "name": "Robot",
+    "difficulty": 4,
+    "thumbnail": "cpu.fill",
+    "steps": [
+      {
+        "id": "f558c2b5-526d-42ac-b99f-2e0f69f99763",
+        "title": "Draw Head",
+        "description": "Draw a square for head.",
+        "image": "square.fill"
+      },
+      {
+        "id": "0f7c3b91-0b06-4c45-9f36-cdc881c8b31d",
+        "title": "Add Antennas",
+        "description": "Draw two lines for antennas.",
+        "image": "antenna.radiowaves.left.and.right"
+      }
+    ]
+  },
+  {
+    "id": "b9fcb16b-4984-4537-91df-05d2ac5112cb",
+    "name": "Castle",
+    "difficulty": 5,
+    "thumbnail": "building.columns.fill",
+    "steps": [
+      {
+        "id": "5084ef8d-772f-4f67-b66a-0a8247982d7a",
+        "title": "Draw Towers",
+        "description": "Draw rectangles for towers.",
+        "image": "rectangle.fill"
+      },
+      {
+        "id": "82a8a847-1e3e-45fb-87a7-c2292d9fa303",
+        "title": "Add Flags",
+        "description": "Draw flags on top.",
+        "image": "flag.fill"
+      }
+    ]
+  },
+  {
+    "id": "cf7c6224-c6b8-40a8-bf2e-81b9d1f6d537",
+    "name": "Boat",
+    "difficulty": 2,
+    "thumbnail": "ferry.fill",
+    "steps": [
+      {
+        "id": "a0e1a11a-4fa7-4e17-87b1-c31c9ea4ff8d",
+        "title": "Draw Hull",
+        "description": "Draw a half oval for the hull.",
+        "image": "oval.fill"
+      },
+      {
+        "id": "0e68c7b3-58db-41e7-88a6-9fb04d6bc986",
+        "title": "Add Mast",
+        "description": "Draw a straight line for mast.",
+        "image": "line.horizontal.3"
+      }
+    ]
+  },
+  {
+    "id": "2ed2581c-4c23-4012-891c-fd2d7a0ccf3f",
+    "name": "Helicopter",
+    "difficulty": 3,
+    "thumbnail": "fan.ceiling.fill",
+    "steps": [
+      {
+        "id": "10eab368-9d9b-43ad-9ca5-b43b66d2704a",
+        "title": "Draw Body",
+        "description": "Draw a small oval for body.",
+        "image": "oval.fill"
+      },
+      {
+        "id": "bf1448e4-2939-4014-a933-623469e76f35",
+        "title": "Add Blades",
+        "description": "Draw long lines for blades.",
+        "image": "line.horizontal.3"
+      }
+    ]
+  },
+  {
+    "id": "3cb55d8d-8cf2-4e84-85f9-cbb94205d49e",
+    "name": "UFO",
+    "difficulty": 4,
+    "thumbnail": "sparkles",
+    "steps": [
+      {
+        "id": "8b73aa3e-6049-4d57-908c-11701aeebdff",
+        "title": "Draw Saucer",
+        "description": "Draw a flattened oval.",
+        "image": "oval.fill"
+      },
+      {
+        "id": "74de80a4-4328-49f2-9cfa-1f3648ea458f",
+        "title": "Add Lights",
+        "description": "Draw small circles under saucer.",
+        "image": "circle.fill"
+      }
+    ]
+  },
+  {
+    "id": "1f00b242-7c8c-4c7c-9c7e-d1e57ccf6b4c",
+    "name": "Moon",
+    "difficulty": 1,
+    "thumbnail": "moon.fill",
+    "steps": [
+      {
+        "id": "a64cb72c-9b07-43a0-8230-fd309f3a57b9",
+        "title": "Draw Circle",
+        "description": "Draw a large circle.",
+        "image": "circle.fill"
+      },
+      {
+        "id": "57ea2873-1e16-49ba-97d1-e046d5f0e05d",
+        "title": "Add Craters",
+        "description": "Draw small circles for craters.",
+        "image": "circle.dashed"
+      }
+    ]
+  },
+  {
+    "id": "8fd9128d-4622-4b9e-8150-e27e747771d5",
+    "name": "Spaceship",
+    "difficulty": 5,
+    "thumbnail": "moon.stars",
+    "steps": [
+      {
+        "id": "ae07c12d-b46b-46d8-9cf3-9982e420260d",
+        "title": "Draw Body",
+        "description": "Draw sleek elongated body.",
+        "image": "oval.fill"
+      },
+      {
+        "id": "ecfd5ad7-51b0-414d-b70e-67bb0b4a70ad",
+        "title": "Add Engines",
+        "description": "Draw engines at the back.",
+        "image": "circle.fill"
+      }
+    ]
+  },
+  {
+    "id": "7fc3664f-79ec-457c-889f-987d42f10d09",
+    "name": "Mountain",
+    "difficulty": 2,
+    "thumbnail": "mountain.2.fill",
+    "steps": [
+      {
+        "id": "98fd8bb8-0585-4b83-9f7a-962eb87203b4",
+        "title": "Draw Peaks",
+        "description": "Draw two triangle peaks.",
+        "image": "triangle.fill"
+      },
+      {
+        "id": "44560a6f-370c-4ab3-b908-f7e75ba2b637",
+        "title": "Add Snowcaps",
+        "description": "Draw smaller triangles on top.",
+        "image": "triangle.fill"
+      }
+    ]
+  },
+  {
+    "id": "ff61be02-bd4e-4de6-83a8-47983b9141cb",
+    "name": "Cloud",
+    "difficulty": 1,
+    "thumbnail": "cloud.fill",
+    "steps": [
+      {
+        "id": "deb5d6a5-86cf-4f82-933d-651016b3f84c",
+        "title": "Draw Shape",
+        "description": "Draw puffy cloud shape.",
+        "image": "cloud.fill"
+      },
+      {
+        "id": "7cb9c89b-878e-468e-92b2-75ea5cfda4a4",
+        "title": "Add Depth",
+        "description": "Draw overlapping circles.",
+        "image": "circle.fill"
+      }
+    ]
+  },
+  {
+    "id": "3e4bd15a-585f-4075-81a2-49f2ad4189d0",
+    "name": "Laptop",
+    "difficulty": 3,
+    "thumbnail": "laptopcomputer",
+    "steps": [
+      {
+        "id": "34714df8-9ed7-402f-851c-cfa7e7314a23",
+        "title": "Draw Base",
+        "description": "Draw a rectangle for keyboard.",
+        "image": "rectangle.fill"
+      },
+      {
+        "id": "06c0f206-7c82-4e60-86a7-2ae70cbce259",
+        "title": "Add Screen",
+        "description": "Draw another rectangle for screen.",
+        "image": "rectangle.fill"
+      }
+    ]
+  },
+  {
+    "id": "cb1b8d09-44ad-4800-95b0-24dbf281bfc6",
+    "name": "Watch",
+    "difficulty": 2,
+    "thumbnail": "applewatch",
+    "steps": [
+      {
+        "id": "d37f6a61-cf55-4299-88b1-1917e76c4c8e",
+        "title": "Draw Face",
+        "description": "Draw a rounded rectangle.",
+        "image": "capsule.fill"
+      },
+      {
+        "id": "f7d2d8eb-7d25-4c4c-9cf2-bc3912d1252e",
+        "title": "Add Strap",
+        "description": "Draw long bands on sides.",
+        "image": "rectangle.fill"
+      }
+    ]
+  },
+  {
+    "id": "639e232e-4a9b-4815-844c-b798379c604f",
+    "name": "Phone",
+    "difficulty": 1,
+    "thumbnail": "iphone.homebutton",
+    "steps": [
+      {
+        "id": "c17b82ea-4c0e-4e7e-abe3-7e93aa8d2fc1",
+        "title": "Draw Rectangle",
+        "description": "Draw a tall rectangle.",
+        "image": "rectangle.fill"
+      },
+      {
+        "id": "bb84e64e-5a29-426c-bc09-4e548c4e1559",
+        "title": "Add Button",
+        "description": "Draw a circle for home button.",
+        "image": "circle.fill"
+      }
+    ]
+  }
+]

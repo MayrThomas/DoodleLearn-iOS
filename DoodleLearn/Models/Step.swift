@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Step: Identifiable {
+struct Step: Identifiable, Decodable {
     let id = UUID()
     
     var title: String

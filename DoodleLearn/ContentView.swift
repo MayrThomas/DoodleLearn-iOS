@@ -18,7 +18,7 @@ struct ContentView: View {
         TabView(selection: $selectedTab) {
             
             NavigationView() {
-                HomeScreen()
+                HomeScreen(viewModel: HomeScreenViewModel(repository: LocalDoodleRepository()))
                     .navigationTitle("Browse")
                     .padding(8)
             }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Doodle: Identifiable {
+struct Doodle: Identifiable, Decodable {
     let id = UUID()
     
     var name: String
