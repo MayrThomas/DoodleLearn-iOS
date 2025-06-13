@@ -13,11 +13,12 @@ struct ContentView: View {
     }
     
     @State private var selectedTab: Tab = .home
+    @State private var homePath = NavigationPath()
     
     var body: some View {
-        TabView(selection: $selectedTab) {
+        TabView(selection: createTabViewBinding()) {
             
-            NavigationView() {
+            NavigationStack(path: $homePath) {
                 HomeScreen(viewModel: HomeScreenViewModel(repository: LocalDoodleRepository()))
                     .navigationTitle("Browse")
                     .padding(8)
@@ -28,16 +29,30 @@ struct ContentView: View {
             .tag(Tab.home)
             .labelStyle(.iconOnly)
             
-            NavigationView() {
-                ProfileScreen()
-                    .navigationTitle("Profile")
-            }
+            ProfileScreen()
             .tabItem {
                 Label("Profile", systemImage: "person.crop.circle")
             }
             .tag(Tab.profile)
             .labelStyle(.iconOnly)
         }
+    }
+    
+    private func createTabViewBinding() -> Binding<Tab> {
+        Binding<Tab>(
+            get: { selectedTab },
+            set: { tab in
+                if tab == selectedTab {
+                    if tab == .home {
+                        withAnimation {
+                            homePath = NavigationPath()
+                        }
+                    }
+                }
+                
+                selectedTab = tab
+            }
+        )
     }
 }
 
